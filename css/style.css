@@ -1,0 +1,110 @@
+* {
+  text-decoration: none;
+  text-decoration-style: none;
+}
+body {
+  margin: 0;
+}
+
+.header{display: flex;justify-content: center;align-items: center;height: 14.8vh}
+.countries{position:relative;display: flex; flex-direction: row; top: -5.35vh;left: -1.5vw; font-size: .5vw ;  font-family: "Readex Pro", sans-serif;font-weight: 500;letter-spacing: .02;
+}
+.lang{margin-left: 1vw;}
+.logo{position: absolute;width: 23vw;height: 25vh;top: -5.8vh; left: 38%;}
+.imenu{position: relative; width: 1.3vw; height: 2.2vh; left: -38.5vw; top: -5vh;}
+.isearch{position: relative; width: 1.3vw; height: 2.2vh; left: -38.5vw; top: -5vh;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cookies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 25vh;
+  outline: 1px solid black;
+}
+.titlesettings {
+  position: relative;
+  left: -0.4vw;
+  top: -1.2vh;
+  font-size: 0.73vw;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 900;
+  letter-spacing: -0.026vw;
+}
+.settings {
+  font-family: "Verdana", sans-serif;
+  text-align: left;
+  padding-right: 4.3vw;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  font-size: 0.605vw;
+  position: relative;
+  top: 1.95vh;
+  font-weight: 500;
+  left: -6.7vw;
+  height: 15vh;
+  width: 35vw;
+  line-height: 2.05vh;
+}
+.azulito {
+  color: rgb(1, 98, 189);
+  text-decoration: underline;
+}
+.btnsettings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 13.6vh;
+  left: 63vw;
+  border-radius: 5px;
+  width: 12.6vw;
+  height: 4.1vh;
+  background-color: black;
+  color: white;
+  font-family: "Readex Pro", sans-serif;
+  font-size: 0.62vw;
+  font-weight: 800;
+}
+.accept {
+  top: 8.6vh;
+}
+.x {border-radius: 50%;
+  position: absolute;
+  top: 2.9vh;
+  left: 79vw;
+  width: 1vw;
+  height: 2vh;
+}
